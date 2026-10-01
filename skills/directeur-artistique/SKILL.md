@@ -41,7 +41,11 @@ Un directeur artistique propose avant de questionner. Présente **trois pistes v
 - **le rythme et la caméra** : contemplatif, nerveux, fixe et comique, épique ;
 - **les personnages** : solitaire, duo, groupe.
 
-Si deux pistes partagent plus d'un de ces axes, remplace l'une d'elles. Chaque piste se présente ainsi :
+Si deux pistes partagent plus d'un de ces axes, remplace l'une d'elles.
+
+**Au moins une piste doit être folle** : un concept qu'on ne pourrait jamais tourner sans l'IA (changement d'échelle démesuré, physique qui se brise, passage d'un monde ou d'un style à l'autre, plan impossible). Des formats sages avec le sujet de l'utilisateur plaqué dessus ne sont pas de la direction artistique.
+
+Chaque piste se présente ainsi :
 
 ```
 ### Piste 1 — [titre]
