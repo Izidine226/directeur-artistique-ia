@@ -12,6 +12,7 @@ Ce sont uniquement des fichiers Markdown : aucun script, aucune dépendance, auc
 - [Ce que font les skills](#ce-que-font-les-skills)
 - [Comment ça fonctionne](#comment-ça-fonctionne)
 - [Exemple](#exemple)
+- [Projet : MOINS UNE](#projet--moins-une)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
 - [De l'idée à la vidéo publiée](#de-lidée-à-la-vidéo-publiée)
@@ -130,6 +131,14 @@ On y retrouve les règles de la skill : la première image imposée, le personna
 
 Trois dossiers complets produits par la skill sont dans [`exemples/`](exemples/).
 
+## Projet : MOINS UNE
+
+> « Il était moins une. »
+
+[**MOINS UNE**](moins-une/) est une série de vidéos courtes conçue avec la skill. Un super-héros surgit au pire moment de la journée de quelqu'un, règle sa galère à la dernière seconde, puis disparaît dans une traînée d'or.
+
+Le dossier contient la bible de la série (le héros, sa signature visuelle, la structure d'un épisode, le rendu cinéma), les dix épisodes de la saison 1 avec leur découpage plan par plan, et le plan de production.
+
 ## Installation
 
 Il faut [Claude Code](https://claude.com/claude-code) (terminal, application de bureau ou extension d'éditeur).
@@ -235,6 +244,11 @@ directeur-artistique-ia/
 │           ├── sources.md              sources testées et méthode par marché
 │           ├── regions.md              plateformes, formats, musiques par région
 │           └── scoring.md              cycle de vie, note sur 100, vetos, fiche tendance
+├── moins-une/                          la série MOINS UNE
+│   ├── README.md                       présentation et saison 1
+│   ├── bible.md                        concept, héros, signature, rendu, règles
+│   ├── production.md                   lancement, production, publication
+│   └── episodes/                       les 10 épisodes, découpés plan par plan
 ├── tests/
 │   ├── evals.json                      les cas de test et leurs critères
 │   └── resultats.md                    les résultats de la version 1.0
