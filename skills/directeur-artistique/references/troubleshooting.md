@@ -22,7 +22,7 @@ Quand l'utilisateur revient avec un résultat raté, identifie le symptôme ici,
 |---|---|---|
 | Refus immédiat d'une scène légitime | Le filtre lit toute la scène : mots d'âge, noms de personnes ou de marques, verbes violents, description du corps | Réécris la scène : un rôle plutôt qu'un âge, la conséquence plutôt que la violence, `her shoulders` plutôt que `her bare shoulders`. Ne renvoie jamais un prompt refusé tel quel |
 | « Couldn't generate because it may contain copyrighted content » | Un personnage, un univers, un studio ou un ayant droit est reconnaissable ou cité | Supprime le nom et crée un personnage ou un univers original ; décris les qualités visuelles au lieu de citer une référence protégée |
-| Image de référence refusée | Elle montre un vrai visage sur un modèle qui ne les accepte pas (signalé sur la famille 2.0) | Passe sur Seedance 2.5 et teste, ou utilise un personnage généré. N'utilise jamais la photo d'une autre personne sans son accord écrit |
+| Image de référence refusée | La modération l'a bloquée : visage d'une personnalité, contenu jugé sensible, ou règle qui a changé | Vérifie qu'il ne s'agit pas d'une personnalité publique ou politique ; essaie une autre photo (visage net, de face, fond simple, sans filtre) ; sinon, utilise un personnage généré. N'utilise jamais la photo d'une autre personne sans son accord écrit |
 
 Ces corrections servent à reformuler une scène **légitime** qui déclenche un faux positif. Elles ne servent jamais à contourner les protections des vraies personnes, des mineurs ou des œuvres protégées.
 

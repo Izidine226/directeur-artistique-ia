@@ -68,6 +68,6 @@ Pour un premier clip IA, le mode conceptuel ou narratif sans dialogue donne les 
 ## 6. Droits
 
 - **Musique** : il faut une licence écrite pour le morceau, sauf si c'est le tien ou une musique libre de droits pour l'usage visé.
-- **Artiste** : il faut son accord écrit avant de le représenter, que ce soit à partir de sa photo ou sous forme d'avatar stylisé. Selon le modèle, Dreamina peut refuser les photos de vrais visages : c'est signalé sur la famille 2.0, à tester sur la 2.5.
+- **Artiste** : il faut son accord écrit avant de le représenter, que ce soit à partir de sa photo ou sous forme d'avatar stylisé. Dreamina accepte en pratique les photos de vrais visages en référence : la seule limite, c'est son accord.
 - **Voix** : ne demande jamais une voix qui imite un artiste reconnaissable.
 - **Étiquette IA** : obligatoire selon les plateformes et le droit européen (`legal-ethics.md`).

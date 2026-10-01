@@ -66,7 +66,7 @@ Character reference, single person, chest-up, facing the camera, neutral express
 Seamless mid-grey background, even soft studio light, no film grade, sharp focus.
 ```
 
-**Visages réels** : l'interface de Dreamina les signale comme non pris en charge sur la famille Seedance 2.0 ; sur la 2.5, ce n'est pas indiqué, teste. L'utilisateur peut se mettre lui-même en scène à partir de sa propre photo. Pour toute autre personne réelle, il faut son accord écrit (`legal-ethics.md`). Pour un personnage de fiction, crée un personnage original.
+**Visages réels** : en pratique, Dreamina accepte les photos de vraies personnes en référence, sur Seedance 2.0 comme sur 2.5, malgré la mention contraire affichée par l'interface sur la 2.0. L'utilisateur peut donc se mettre lui-même en scène à partir de ses photos : mêmes règles que pour une fiche personnage (une vue par image, visage net, lumière douce, fond simple, sans filtre). Pour toute autre personne réelle, il faut son accord écrit (`legal-ethics.md`). Pour un personnage de fiction, crée un personnage original.
 
 **Enregistre chaque personnage récurrent comme Élément dans Dreamina** (« Éléments » dans l'interface française) : ses images de référence et sa voix, sous un nom que tu cites avec `@` dans tous les prompts. C'est la façon la plus simple de garder le même personnage d'une génération à l'autre (`dreamina-seedance.md`, §8).
 

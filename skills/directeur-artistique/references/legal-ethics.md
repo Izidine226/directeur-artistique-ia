@@ -56,7 +56,7 @@ Les vidéos Dreamina portent déjà un filigrane invisible et des métadonnées 
 
 ## 5. Les vraies personnes
 
-- **Jamais** de célébrité, de personnalité politique, de personne privée identifiable ni de mineur sans accord écrit explicite. Dreamina bloque les personnalités politiques, et signale les vrais visages comme non pris en charge en référence sur la famille Seedance 2.0.
+- **Jamais** de célébrité, de personnalité politique, de personne privée identifiable ni de mineur sans accord écrit explicite. Dreamina bloque les personnalités politiques. Les photos de vraies personnes, elles, sont acceptées en référence en pratique : la limite est donc légale, pas technique.
 - **Ton propre double IA** : tu peux te mettre en scène à partir de ta propre image. Signale le contenu comme IA, et si quelqu'un d'autre gère tes comptes, garde une trace écrite de ton accord.
 - **YouTube** permet à tout adulte de demander le retrait d'un contenu IA montrant son visage.
 

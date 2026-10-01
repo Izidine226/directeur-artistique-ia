@@ -26,9 +26,9 @@
 |---|---|
 | **Seedance 2.5 (for preview)** | Brouillons en 480p, moins chers, pour tester une idée. L'aperçu reste valable 7 jours, puis on le génère en pleine qualité (1080p). |
 | **Seedance 2.5** | Le modèle principal : plus réaliste, jusqu'à 30 s, jusqu'à 50 références, édition et extension. Sorti le 31 juillet 2026. |
-| **Seedance 2.0** | Ancienne génération polyvalente, 15 s maximum. Pas de vrais visages. |
-| **Seedance 2.0 Fast** | Plus rapide et moins cher que la 2.0. Pas de vrais visages. |
-| **Seedance 2.0 Mini** | Le moins cher et le plus rapide. Pas de vrais visages. |
+| **Seedance 2.0** | Ancienne génération polyvalente, 15 s maximum. |
+| **Seedance 2.0 Fast** | Plus rapide et moins cher que la 2.0. |
+| **Seedance 2.0 Mini** | Le moins cher et le plus rapide. |
 | Seedance 1.5 Pro, 1.0, 1.0 Fast | Anciens modèles. |
 | MiniMax H3 | Modèle d'un autre éditeur, présent dans Dreamina. |
 
@@ -147,7 +147,7 @@ Conseils propres à la 2.0 : n'utilise pas toutes les places de référence (4 �
 
 ## 9. Les restrictions de contenu
 
-- **Vrais visages** : l'interface indique qu'ils ne sont pas pris en charge en référence sur la famille 2.0. Sur la 2.5, l'interface n'affiche pas cette restriction ; la documentation API de ByteDance la mentionne, mais des utilisateurs génèrent dans Dreamina avec des photos de vraies personnes. **Ne l'affirme pas comme un refus certain : fais tester.** La règle qui compte est légale : l'utilisateur peut utiliser sa propre image ; celle d'une autre personne demande son accord écrit (`legal-ethics.md`).
+- **Vrais visages** : **en pratique, Dreamina accepte les photos de vraies personnes en référence, sur Seedance 2.0 comme sur 2.5** (constaté par un utilisateur dans sa propre production, octobre 2026). C'est vrai même si l'interface affiche « Real human faces are not supported » sur les modèles 2.0, et si la documentation API de ByteDance parle d'un refus. La modération peut toutefois bloquer une image ou changer de règle ; si c'est le cas, voir `troubleshooting.md`. **La limite qui compte est légale** : l'utilisateur peut utiliser sa propre image ; celle d'une autre personne demande son accord écrit ; jamais de célébrité ni de personnalité politique (`legal-ethics.md`).
 - **Personnalités politiques** : interdites.
 - **Mineurs** : tout contenu qui sexualise, met en danger ou exploite une personne de moins de 18 ans est interdit, IA comprise. Ne représente pas d'enfants dans des scènes ambiguës.
 - **Propriété intellectuelle** : la génération de personnages et d'univers protégés est bloquée (« Couldn't generate because it may contain copyrighted content »). Citer un studio ou un ayant droit comme référence de style déclenche aussi la modération : décris les qualités visuelles à la place.
@@ -192,6 +192,5 @@ Tous les plans payants : sans filigrane de marque, extension, meilleure résolut
 À contrôler en étant connecté, puis à reporter dans ce fichier :
 1. le coût exact en crédits sur le bouton Générer, en 480p, 720p et 1080p, avec ou sans vidéo de référence, et en vidéo longue ;
 2. si l'interface française transmet `@Vidéo 1` au modèle, ou un identifiant neutre ;
-3. si la 2.5 accepte les photos de vrais visages en référence, y compris celle de l'utilisateur lui-même, et dans quels modes ;
-4. quelles formules incluent l'usage commercial ;
-5. si Dreamina propose le téléchargement en MOV pour la 2.5.
+3. quelles formules incluent l'usage commercial ;
+4. si Dreamina propose le téléchargement en MOV pour la 2.5.
