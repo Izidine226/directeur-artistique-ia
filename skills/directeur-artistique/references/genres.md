@@ -23,11 +23,11 @@ Chaque genre a sa grammaire visuelle. Ce fichier donne, pour chacun, la structur
 Archétypes : la poursuite, le duel (la domination alterne), l'impact (montée lente, coup rapide, conséquences lentes).
 
 ```
-A courier in a soaked orange windbreaker sprints through a night fish market between
-ice-packed stalls. A metal shutter slams down ahead; she slides beneath it without
-breaking stride. Low tracking shot behind her at running pace. Sodium-orange practicals,
-cold blue shadow, wet asphalt. Audio includes ragged breath, splashing sneakers,
-the shutter's crash. NO BGM.
+A courier in an orange windbreaker sprints through a crowded open-air market at noon,
+weaving between fruit stalls. A delivery van pulls out ahead; she slides across its
+bonnet without breaking stride. Low tracking shot behind her at running pace. Harsh
+overhead sun, hard shadows, saturated red and teal awnings. Audio includes ragged
+breath, vendors shouting, a van horn. NO BGM.
 ```
 
 ## Horreur
@@ -124,9 +124,9 @@ Audio includes surf booming and rising wind.
 
 ```
 A broad-shouldered dock worker with weathered skin and a thin scar through the left eyebrow,
-in a worn leather jacket, stands on a rain-lashed pier at night. He turns his collar up and
-looks out to sea; his jaw sets. Slow push from medium-wide to medium close-up.
-Sodium-vapour key light from frame-right, cold blue fill.
+in a worn leather jacket, stands on a harbour quay at sunrise. He turns his collar up against
+the wind and looks out to sea; his jaw sets. Slow push from medium-wide to medium close-up.
+Low golden sunlight from frame-right, cool blue shadows on the water.
 ```
 
 ## Thriller, polar

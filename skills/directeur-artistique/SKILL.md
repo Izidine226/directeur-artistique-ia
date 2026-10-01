@@ -34,7 +34,14 @@ Repère : le format (clip, court-métrage, mini-série, lifestyle, tendance, pub
 
 ### 2. Brief ouvert : proposer trois pistes
 
-Un directeur artistique propose avant de questionner. Présente **trois pistes vraiment contrastées**, pas trois variantes de la même idée :
+Un directeur artistique propose avant de questionner. Présente **trois pistes vraiment contrastées**, pas trois variantes de la même idée. Fais-les différer sur plusieurs axes à la fois :
+- **le genre et le ton** : comédie, aventure, romance, chronique tendre, thriller, fantastique, action… et pas trois pistes sombres et mystérieuses ;
+- **le moment** : matin, plein jour, golden hour, saison. Ne cède pas au réflexe « nuit, néons, pluie », qui rend tout semblable ;
+- **le lieu** : intérieur ou extérieur, ville, nature, lieu du quotidien, lieu spectaculaire ;
+- **le rythme et la caméra** : contemplatif, nerveux, fixe et comique, épique ;
+- **les personnages** : solitaire, duo, groupe.
+
+Si deux pistes partagent plus d'un de ces axes, remplace l'une d'elles. Chaque piste se présente ainsi :
 
 ```
 ### Piste 1 — [titre]
