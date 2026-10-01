@@ -1,0 +1,12 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Espaces de travail des tests (sorties volumineuses)
+*-workspace/

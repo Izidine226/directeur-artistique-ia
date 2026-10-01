@@ -1,0 +1,76 @@
+{
+  "skill_name": "directeur-artistique",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "clip-electro-vertical",
+      "prompt": "fais moi un clip de 30 sec pour un son electro à 124 bpm, ambiance futuriste la nuit, je veux un vrai truc cinéma avec des mouvements de caméra de ouf, en vertical pour tiktok",
+      "expected_output": "Un dossier de réalisation complet en français : concept, look (lumière/palette/texture), découpage plan par plan calé sur le tempo de 124 BPM, mouvements de caméra justifiés par l'intention, prompts Seedance en anglais prêts à coller avec réglages Dreamina (durée, ratio 9:16, références), montage synchronisé sur la musique.",
+      "files": [],
+      "expectations": [
+        "Contient au moins un prompt Seedance prêt à coller, en anglais, dans un bloc de code",
+        "Donne les réglages Dreamina à part du prompt : modèle, durée, ratio et résolution",
+        "Les plages temporelles d'un même prompt sont contiguës, sans trou",
+        "La somme des durées des générations correspond à la durée demandée (à 10 % près)",
+        "Aucun âge chiffré dans les prompts (ex. 25-year-old)",
+        "Aucun mot inutile de type 8K, masterpiece, stunning, hyperrealistic dans les prompts",
+        "Le texte à l'écran et les sous-titres sont prévus au montage, et aucun prompt ne demande de texte lisible dans l'image",
+        "Aucun prompt n'utilise une balise @Image ou @Video comme sujet d'une phrase d'action",
+        "Chaque génération précise au moins un mouvement de caméra avec son point de départ ou d'arrivée et une vitesse",
+        "Le script et les explications sont rédigés en français",
+        "Le ratio 9:16 est spécifié dans les réglages",
+        "Les coupes sont calées sur 124 BPM avec des valeurs en secondes cohérentes (mesure ≈ 1,94 s ou temps ≈ 0,48 s)",
+        "La musique de l'utilisateur est chargée en référence audio ou ajoutée au montage, sans demander à Seedance d'en générer une autre",
+        "Utilise au moins un mouvement de caméra spectaculaire (FPV, orbite, dolly zoom, plan-séquence, rampe de vitesse) et justifie son choix"
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "lifestyle-morning-routine",
+      "prompt": "je veux une vidéo lifestyle de 20 sec genre morning routine d'une jeune créative dans un appart en ville, esthétique, pour insta reels",
+      "expected_output": "Une vidéo lifestyle verticale avec une accroche dans les 2 premières secondes, un rendu esthétique cohérent (lumière du matin, palette, texture), une structure de format lifestyle, le même personnage d'un plan à l'autre, le texte à l'écran ajouté au montage plutôt que généré, prompts Seedance prêts à coller et réglages Dreamina.",
+      "files": [],
+      "expectations": [
+        "Contient au moins un prompt Seedance prêt à coller, en anglais, dans un bloc de code",
+        "Donne les réglages Dreamina à part du prompt : modèle, durée, ratio et résolution",
+        "Les plages temporelles d'un même prompt sont contiguës, sans trou",
+        "La somme des durées des générations correspond à la durée demandée (à 10 % près)",
+        "Aucun âge chiffré dans les prompts (ex. 25-year-old)",
+        "Aucun mot inutile de type 8K, masterpiece, stunning, hyperrealistic dans les prompts",
+        "Le texte à l'écran et les sous-titres sont prévus au montage, et aucun prompt ne demande de texte lisible dans l'image",
+        "Aucun prompt n'utilise une balise @Image ou @Video comme sujet d'une phrase d'action",
+        "Chaque génération précise au moins un mouvement de caméra avec son point de départ ou d'arrivée et une vitesse",
+        "Le script et les explications sont rédigés en français",
+        "Le ratio 9:16 est spécifié dans les réglages",
+        "Une accroche est définie pour les 2 premières secondes",
+        "La lumière du matin est décrite par sa source (fenêtre, soleil, direction) et non par un simple adjectif",
+        "Le même personnage est verrouillé sur tous les plans (image de référence, Élément Dreamina ou bloc identité recopié à l'identique)"
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "mini-serie-thriller-bar",
+      "prompt": "lance moi une mini série de 4 épisodes d'1 minute, thriller dans un bar la nuit, toujours les 2 mêmes persos : une barmaid et un client mystérieux",
+      "expected_output": "Une bible de série (personnages avec fiches de référence, décor, look constant), un arc sur 4 épisodes avec accroche et cliffhanger à chaque épisode, le script de l'épisode 1 et son découpage complet, une stratégie de cohérence des personnages dans Dreamina (images de référence réutilisées), prompts prêts à coller.",
+      "files": [],
+      "expectations": [
+        "Contient au moins un prompt Seedance prêt à coller, en anglais, dans un bloc de code",
+        "Donne les réglages Dreamina à part du prompt : modèle, durée, ratio et résolution",
+        "Les plages temporelles d'un même prompt sont contiguës, sans trou",
+        "La somme des durées des générations correspond à la durée demandée (à 10 % près)",
+        "Aucun âge chiffré dans les prompts (ex. 25-year-old)",
+        "Aucun mot inutile de type 8K, masterpiece, stunning, hyperrealistic dans les prompts",
+        "Le texte à l'écran et les sous-titres sont prévus au montage, et aucun prompt ne demande de texte lisible dans l'image",
+        "Aucun prompt n'utilise une balise @Image ou @Video comme sujet d'une phrase d'action",
+        "Chaque génération précise au moins un mouvement de caméra avec son point de départ ou d'arrivée et une vitesse",
+        "Le script et les explications sont rédigés en français",
+        "Fournit une bible avec une fiche détaillée pour chacun des deux personnages",
+        "Donne l'arc des 4 épisodes avec une accroche et un cliffhanger pour chacun",
+        "Livre le script complet de l'épisode 1 en français",
+        "Livre le découpage technique et le plan de génération de l'épisode 1",
+        "Décrit une méthode de cohérence des personnages entre les épisodes (références réutilisées ou Éléments Dreamina)",
+        "Les dialogues sont courts et un seul personnage parle par plan ou par étape"
+      ]
+    }
+  ]
+}
