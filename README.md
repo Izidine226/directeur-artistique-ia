@@ -100,7 +100,7 @@ flowchart LR
 
 - **Chaque région est confiée à un agent qui travaille en parallèle des autres.** Une veille « tous les continents » ne prend donc pas plus de temps qu'une veille sur un seul pays.
 - **Une tendance sans source consultée et datée n'est pas retenue** : une fausse tendance fait perdre des jours de production.
-- **La note sur 100** pèse la pertinence, l'adéquation à ton objectif, le stade de la tendance (émergente, au pic, saturée), la faisabilité en IA, les droits et l'originalité. **Les vetos** écartent d'office ce qui touche à un drame, à la politique, à des mineurs, à une musique sans licence ou au visage d'une vraie personne.
+- **La note sur 100** pèse la pertinence, l'adéquation à ton objectif, le stade de la tendance (émergente, au pic, saturée), la faisabilité en IA, les droits et l'originalité. **Un problème d'exécution ne fait pas écarter une tendance** : un visage réel ou un son sous licence, elle propose la version adaptée (ton propre visage, des personnes d'accord, des personnages originaux, une musique libre) et signale le risque de la version d'origine. Seuls un drame, la politique, la religion, des mineurs, l'alcool festif ou un faux événement présenté comme réel sont écartés d'office.
 
 ### La mise à jour
 

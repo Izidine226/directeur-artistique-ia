@@ -46,13 +46,23 @@ Note chaque critère de 0 à 5, puis calcule : **note = somme de (poids × note 
 
 ## 3. Les vetos
 
-Quelle que soit la note, on écarte toute tendance qui implique :
+**Un veto porte sur une façon de faire, pas sur la tendance.** Avant d'écarter une tendance, cherche une version acceptable et propose-la :
+- le visage de l'utilisateur lui-même, ou celui de personnes qui ont donné leur accord ;
+- des personnages originaux ;
+- une musique originale ou libre de droits à la place d'un son sous licence ;
+- une étiquette « IA » visible pour un trucage réaliste.
+
+Garde alors la tendance, sous sa forme adaptée, et signale en une ligne le risque de la version d'origine : c'est à l'utilisateur de décider.
+
+**N'écarte que ce qui n'a aucune adaptation acceptable :**
 - un drame, la politique ou la religion ;
 - des mineurs ;
-- une musique sans licence sur un compte professionnel ;
-- le visage d'une vraie personne sans son accord ;
 - l'alcool présenté de façon festive ou glamour ;
-- un faux événement photoréaliste dans un lieu réel, sans étiquette.
+- un faux événement présenté comme réel, sans étiquette.
+
+**Restent des risques à signaler, pas des vetos :**
+- une musique sans licence (acceptable sur un compte personnel avec le son de l'application, pas sur un compte professionnel) ;
+- le visage d'une célébrité : Dreamina peut le bloquer, et en France, publier un trucage IA d'une personne sans son accord est un délit quand il n'est ni évident ni signalé.
 
 ## 4. La fiche tendance
 

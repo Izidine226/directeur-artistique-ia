@@ -69,7 +69,7 @@ Regroupe les retours dans un tableau unique, puis cherche :
 - **les décalages exploitables** : au pic ailleurs, émergent ou absent en France ;
 - **les correspondances avec le thème, la marque ou l'objectif** donnés par l'utilisateur.
 
-Note chaque tendance sur 100 avec la grille de `references/scoring.md`, et écarte d'office celles qui tombent sous un veto (drame, politique, religion, mineurs, musique sans licence, visage réel sans accord, alcool festif, faux événement réaliste).
+Note chaque tendance sur 100 avec la grille de `references/scoring.md`. Quand un problème ne touche que la façon de faire (un visage réel, un son sous licence), **adapte la tendance au lieu de l'écarter** : avec le visage de l'utilisateur, des personnes d'accord ou des personnages originaux, et une musique libre. Signale le risque de la version d'origine en une ligne. N'écarte que ce qui n'a aucune adaptation acceptable : drame, politique, religion, mineurs, alcool festif, faux événement présenté comme réel.
 
 ### 4. Proposer des idées
 
