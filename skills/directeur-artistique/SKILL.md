@@ -125,7 +125,7 @@ Elles viennent de la documentation officielle et de tests de la communauté ; ch
 - **Le sujet et l'action dans les 20 à 30 premiers mots**, la caméra ensuite.
 - **Un mouvement de caméra principal par plan**, avec son début, sa fin et sa vitesse.
 - **Des plages de temps contiguës**, une action principale par étape, un état final tenu.
-- **Ni âge, ni vraie personne, ni célébrité, ni marque, ni œuvre protégée.** Des personnages et des univers originaux.
+- **Ni âge, ni célébrité, ni marque, ni œuvre protégée.** Une vraie personne seulement si c'est l'utilisateur lui-même ou si elle a donné son accord écrit ; sinon, des personnages et des univers originaux.
 - **Jamais de négation d'un objet visible.** Les négations servent aux sous-titres, au son et aux défauts.
 - **Le texte, les logos et les prix s'ajoutent au montage.**
 - **Le préfixe de style et les blocs identité se recopient mot pour mot.**

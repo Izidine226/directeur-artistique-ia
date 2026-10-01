@@ -147,7 +147,7 @@ Conseils propres à la 2.0 : n'utilise pas toutes les places de référence (4 �
 
 ## 9. Les restrictions de contenu
 
-- **Vrais visages** : refusés en référence sur la famille 2.0 (indiqué dans l'interface). Pour la 2.5, ByteDance l'indique aussi dans sa documentation API ; dans Dreamina, c'est probablement pareil. Travaille avec des personnages originaux.
+- **Vrais visages** : l'interface indique qu'ils ne sont pas pris en charge en référence sur la famille 2.0. Sur la 2.5, l'interface n'affiche pas cette restriction ; la documentation API de ByteDance la mentionne, mais des utilisateurs génèrent dans Dreamina avec des photos de vraies personnes. **Ne l'affirme pas comme un refus certain : fais tester.** La règle qui compte est légale : l'utilisateur peut utiliser sa propre image ; celle d'une autre personne demande son accord écrit (`legal-ethics.md`).
 - **Personnalités politiques** : interdites.
 - **Mineurs** : tout contenu qui sexualise, met en danger ou exploite une personne de moins de 18 ans est interdit, IA comprise. Ne représente pas d'enfants dans des scènes ambiguës.
 - **Propriété intellectuelle** : la génération de personnages et d'univers protégés est bloquée (« Couldn't generate because it may contain copyrighted content »). Citer un studio ou un ayant droit comme référence de style déclenche aussi la modération : décris les qualités visuelles à la place.
@@ -192,6 +192,6 @@ Tous les plans payants : sans filigrane de marque, extension, meilleure résolut
 À contrôler en étant connecté, puis à reporter dans ce fichier :
 1. le coût exact en crédits sur le bouton Générer, en 480p, 720p et 1080p, avec ou sans vidéo de référence, et en vidéo longue ;
 2. si l'interface française transmet `@Vidéo 1` au modèle, ou un identifiant neutre ;
-3. si la 2.5 accepte les visages photoréalistes issus des propres générations Dreamina ;
+3. si la 2.5 accepte les photos de vrais visages en référence, y compris celle de l'utilisateur lui-même, et dans quels modes ;
 4. quelles formules incluent l'usage commercial ;
 5. si Dreamina propose le téléchargement en MOV pour la 2.5.

@@ -35,7 +35,7 @@ Note chaque critère de 0 à 5, puis calcule : **note = somme de (poids × note 
 | Pertinence pour l'audience | 20 % | L'audience visée s'en empare-t-elle vraiment ? |
 | Adéquation au message | 20 % | Peut-elle porter quelque chose de vrai sur le sujet, la marque ou l'objectif, sans forcer ? |
 | Timing | 15 % | Émergente = 5, indémodable = 4, au pic = 3, saturée = 1 |
-| Faisabilité en IA | 15 % | Productible en 24 à 72 h avec Seedance, plus des images réelles si besoin ? (plans de 30 s maximum, pas de vrais visages, texte ajouté au montage) |
+| Faisabilité en IA | 15 % | Productible en 24 à 72 h avec Seedance, plus des images réelles si besoin ? (plans de 30 s maximum, visages réels seulement avec accord, texte ajouté au montage) |
 | Droits et conformité | 15 % | Musique autorisée ou originale ? Aucun visage réel sans accord ? Règles françaises respectées ? Étiquettes IA prévues ? |
 | Différenciation | 10 % | Y a-t-il un angle que seul ce créateur ou cette marque peut prendre ? |
 | Légitimité culturelle | 5 % | Est-on légitime pour la reprendre ? Rien de sacré, aucune appropriation, rien qui vienne d'un drame |
