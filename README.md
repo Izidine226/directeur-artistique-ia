@@ -10,9 +10,11 @@ Ce sont uniquement des fichiers Markdown : aucun script, aucune dépendance, auc
 ## Sommaire
 
 - [Ce que font les skills](#ce-que-font-les-skills)
+- [Comment ça fonctionne](#comment-ça-fonctionne)
 - [Exemple](#exemple)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
+- [De l'idée à la vidéo publiée](#de-lidée-à-la-vidéo-publiée)
 - [Structure du dépôt](#structure-du-dépôt)
 - [Comment elles ont été construites](#comment-elles-ont-été-construites)
 - [Tests](#tests)
@@ -47,6 +49,62 @@ Ce qu'elle sait, en résumé :
 - **Une note sur 100** (pertinence, adéquation, stade du cycle de vie, faisabilité en IA, droits, différenciation) et des **vetos** automatiques.
 - **Le repérage des décalages entre pays** : une tendance au pic ailleurs et absente dans ton pays, c'est l'occasion d'arriver avant tout le monde.
 - **5 à 10 idées de vidéos** avec leur accroche, puis passage au directeur artistique pour la production.
+
+## Comment ça fonctionne
+
+### Ce qu'est une skill
+
+Une skill est un dossier d'instructions que Claude Code charge quand ta demande correspond à ce qu'elle sait faire. Elle ne contient pas de code et n'appelle aucun service : elle change **la façon dont Claude travaille**, en lui donnant une méthode, des règles et des connaissances à jour.
+
+Claude la charge en trois niveaux, pour rester rapide tout en ayant accès à une vingtaine de fichiers de savoir-faire :
+
+| Niveau | Fichier | Quand Claude le lit |
+|---|---|---|
+| 1 | La **description**, dans l'en-tête de `SKILL.md` | Toujours. C'est elle qui déclenche la skill quand tu parles de vidéo, de clip, de script, de prompt ou de tendances |
+| 2 | Le reste de **`SKILL.md`** | Dès que la skill se déclenche : le rôle, le déroulé, le gabarit du dossier, les règles de production |
+| 3 | Les fichiers de **`references/`** | Seulement au besoin : la fiche Dreamina et la construction des prompts avant chaque production ; le reste selon le format demandé (clip, série…) ou le problème rencontré |
+
+### Le déroulé du directeur artistique
+
+```mermaid
+flowchart TD
+    A[Ta demande] --> B{Le brief est-il ouvert ?}
+    B -- Oui --> C[Trois pistes contrastées<br/>et une recommandation]
+    C --> D[Tu choisis une piste]
+    B -- Non, il est précis --> E
+    D --> E[Claude lit ses références :<br/>fiche Dreamina, construction des prompts,<br/>format et genre concernés]
+    E --> F[Dossier de réalisation :<br/>direction artistique, script, découpage,<br/>prompts et réglages Dreamina, montage, budget]
+    F --> G[Tu génères dans Dreamina]
+    G --> H{Le résultat te convient ?}
+    H -- Non --> I[Tu reviens avec le défaut :<br/>diagnostic et prompt corrigé,<br/>une seule correction à la fois]
+    I --> G
+    H -- Oui --> J[Montage et publication]
+```
+
+- **Un brief ouvert** (« fais-moi une vidéo sur le café ») donne d'abord trois pistes très différentes, chacune avec son accroche, son rendu et son image phare. **Un brief précis** (format, durée et idée donnés) mène directement au dossier.
+- **Avant d'écrire un prompt**, Claude relit la fiche technique de Dreamina (limites, modes, syntaxe des références) et les règles de construction des prompts. C'est ce qui évite les erreurs qu'on retrouve sans la skill, comme une limite de 15 s supposée pour Seedance 2.5.
+- **Pour un gros projet** (série, court-métrage), Claude livre d'abord le socle : la bible des personnages, l'arc complet et le premier épisode entièrement produit. Il demande ta validation avant de produire la suite, pour qu'une erreur de direction se corrige avant d'avoir coûté des crédits sur tous les épisodes.
+- **Quand une génération rate**, Claude détermine si le défaut est systématique (le prompt est en cause, il le réécrit) ou aléatoire (le prompt est bon, il faut d'autres prises), puis te redonne le prompt complet corrigé.
+
+### Le déroulé de la veille
+
+```mermaid
+flowchart LR
+    A[Ta demande :<br/>régions et thème] --> B[Un agent de recherche<br/>par région, en parallèle]
+    B --> C[Sources testées : Google Trends,<br/>TikTok Creative Center, Kworb,<br/>Shazam, X, Douyin, Baidu…]
+    C --> D[Tableau des tendances,<br/>chacune sourcée et datée]
+    D --> E[Note sur 100<br/>et vetos]
+    E --> F[5 à 10 idées<br/>de vidéos]
+    F --> G[Production avec<br/>le directeur artistique]
+```
+
+- **Chaque région est confiée à un agent qui travaille en parallèle des autres.** Une veille « tous les continents » ne prend donc pas plus de temps qu'une veille sur un seul pays.
+- **Une tendance sans source consultée et datée n'est pas retenue** : une fausse tendance fait perdre des jours de production.
+- **La note sur 100** pèse la pertinence, l'adéquation à ton objectif, le stade de la tendance (émergente, au pic, saturée), la faisabilité en IA, les droits et l'originalité. **Les vetos** écartent d'office ce qui touche à un drame, à la politique, à des mineurs, à une musique sans licence ou au visage d'une vraie personne.
+
+### La mise à jour
+
+Dis **« mets à jour la skill »**. Trois agents vérifient alors en parallèle les sources officielles, les nouveaux dépôts de prompts Seedance et les techniques récentes de la communauté. Claude compare leurs résultats avec la skill et te présente les corrections, ajouts et suppressions proposés, chacun avec sa source. **Il ne modifie rien sans ton accord.**
 
 ## Exemple
 
@@ -127,6 +185,24 @@ Les skills sont disponibles à partir de la session suivante de Claude Code.
 **Explicitement** : `/directeur-artistique` ou `/veille-tendances`.
 
 **Pour un gros projet** (série, court-métrage), la skill livre d'abord le socle complet (bible des personnages, arc, premier épisode entièrement produit), puis demande validation avant de produire la suite.
+
+## De l'idée à la vidéo publiée
+
+1. **Demande ta vidéo** à Claude, avec ce que tu sais déjà : le format, la durée, la plateforme, l'ambiance, ta musique si tu en as une.
+2. **Lis le dossier.** Commence par la direction artistique et le découpage : si le parti pris ne te plaît pas, dis-le maintenant, ça ne coûte rien.
+3. **Prépare tes références dans Dreamina.** Génère les images de référence des personnages et des décors avec les prompts d'image fournis, puis enregistre chaque personnage récurrent comme **Élément**. Tu le cites ensuite avec `@` dans tous les prompts, et il garde le même visage d'un plan à l'autre.
+4. **Pour chaque génération du plan de génération :**
+   - choisis le **mode** indiqué (par exemple « Références de tout type ») ;
+   - règle le **modèle, la durée, le format et la résolution** ;
+   - charge les références **dans l'ordre indiqué**, avec le sélecteur `@` ;
+   - colle le **prompt** tel quel.
+5. **Commence en brouillon** avec « Seedance 2.5 (for preview) » en 480p, qui coûte moins cher, pour valider les plans, le placement et les personnages. Génère ensuite en qualité finale.
+6. **Fais plusieurs prises des plans importants** et garde la meilleure. Une prise ratée contient parfois deux secondes parfaites à récupérer.
+7. **Si un plan rate**, reviens vers Claude avec le prompt et ce qui ne va pas (« les mains se déforment », « la caméra part dans tous les sens »). Tu reçois le diagnostic et le prompt corrigé.
+8. **Monte la vidéo** (CapCut ou autre) en suivant la partie « Montage et finitions » du dossier : ordre des plans, coupes calées sur la musique, texte à l'écran, sous-titres. Les textes, logos et prix s'ajoutent toujours au montage, jamais dans la génération.
+9. **Avant de publier**, passe la liste de contrôle du dossier : étiquette IA de la plateforme, droits de la musique, mentions obligatoires si c'est du contenu commercial.
+
+**Astuce** : comme les prompts sont en anglais, passe l'interface de Dreamina en anglais. Les balises de référence (`@Image 1`, `@Video 1`) correspondront alors exactement au texte des prompts.
 
 ## Structure du dépôt
 
